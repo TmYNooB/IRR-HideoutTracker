@@ -1,0 +1,1 @@
+Die Versionsnummer hat die Form Major.Minor.Patch-YYYYMMDD (als aktuelles Datum des GitPushs). Jede Änderung die du durchführst und die wir pushen MUSS eine erhöhung der Versionsnummer zur Folge haben.
