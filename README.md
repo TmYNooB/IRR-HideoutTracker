@@ -1,6 +1,6 @@
 # IRR Safehouse Tracker
 
-A standalone, offline-first browser-based tracker for managing safehouse/hideout upgrades in **Into the Radius Reloaded (IRR)**.
+A standalone, offline-first browser-based tracker for managing safehouse/hideout upgrades in **Incursion Red River (IRR)**.
 
 ## Features
 
