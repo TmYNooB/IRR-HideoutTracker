@@ -4,7 +4,7 @@ Wann immer du während des Chats neuen Kontext enthälst den du für wichtig era
 
 ## Projekt-Kontext
 
-**Aktuelle Version:** 0.4.5-20260313
+**Aktuelle Version:** 0.4.6-20260315
 
 ### Header / Logo-Bereich
 - Das Logo (PNG, 550×219px, Ratio ~2.51) liegt in `.logo-mark` (160px breit, border-box).
@@ -16,6 +16,13 @@ Wann immer du während des Chats neuen Kontext enthälst den du für wichtig era
 - Das Inhaltsverzeichnis (TOC) ist **standardmäßig eingeklappt** (collapsed).
 - Aufklappen per Klick auf den TOC-Header (`toggleToc()`-Funktion).
 - Nach Klick auf einen TOC-Link scrollt der Inhalt zur gewählten Sektion UND das TOC klappt sich automatisch wieder ein (in `scrollToSection()`).
+
+### GitHub Releases
+- Workflow: `.github/workflows/release.yml`
+- Wird durch einen Git-Tag ausgelöst, der mit `v` beginnt (z.B. `v0.4.6`)
+- Erstellt automatisch ein GitHub Release und hängt `safehouse-tracker.html` als Asset an
+- Release-Erstellung: `git tag v0.4.6 && git push origin v0.4.6`
+- Die `safehouse-tracker.html` ist das eigentliche Release-Artefakt
 
 ### Technische Details
 - Einzelne HTML-Datei ohne externe Abhängigkeiten (offline-fähig).
