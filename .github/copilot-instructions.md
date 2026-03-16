@@ -4,7 +4,7 @@ Wann immer du während des Chats neuen Kontext enthälst den du für wichtig era
 
 ## Projekt-Kontext
 
-**Aktuelle Version:** 0.4.8-20260316
+**Aktuelle Version:** 0.4.9-20260316
 
 ### Header / Logo-Bereich
 - Das Logo (PNG, 550×219px, Ratio ~2.51) liegt in `.logo-mark` (160px breit, border-box).
